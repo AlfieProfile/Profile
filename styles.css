@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif; /* Change the font family as needed */
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.jpg'); /* Adjust the path as per your folder structure */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    background-color: #fff; /* Change the background color as needed */
+    color: #333; /* Change the text color as needed */
+    padding: 10px 0; /* Adjust the padding as needed */
+    border-radius: 25px;
+    width: 600px;
+    margin: 0 auto; /* Center the header horizontally */
+    margin-top: 40px;
+}
+
+header h1 {
+    margin-bottom: 3px;
+    margin-top: 10px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 3px;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.feature-box {
+    background-color: #4e56c5;
+    text-align: center;
+    width: 300px;
+}
+
+.feature-box img {
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+.feature-box p {
+    margin-top: 10px;
+}
